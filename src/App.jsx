@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './Home/index'
 function App() {
+    <Home images={images}/>
 }
 
 
