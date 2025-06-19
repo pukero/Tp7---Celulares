@@ -1,30 +1,28 @@
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-
-
+import './contacto.css';
 
 const Contacto = () => {
     return(
-        <div className="contact-container">
-            <h2 className="contact-title">Formulario de Contacto</h2>
-            <form className="contact-form">
-                <div className="form-group">
-                    <label htmlFor="nombre" className="form-label">Nombre</label>
-                    <input type="text" id="nombre" name="nombre" className="form-control" />
+        <div class="contact-container">
+            <h2 class="contact-title">Formulario de Contacto</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label htmlFor="nombre" class="form-label">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" class="form-control" />
                 </div>
-                <div className="form-group">
-                    <label htmlFor="apellido" className="form-label">Apellido</label>
-                    <input type="text" id="apellido" name="apellido" className="form-control" />
+                <div class="form-group">
+                    <label htmlFor="apellido" class="form-label">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" class="form-control" />
                 </div>
-                <div className="form-group">
-                    <label htmlFor="email" className="form-label">Email</label>
-                    <input type="email" id="email" name="email" className="form-control" />
+                <div class="form-group">
+                    <label htmlFor="email" class="form-label">Email</label>
+                    <input type="email" id="email" name="email" class="form-control" />
                 </div>
-                <div className="form-group">
-                    <label htmlFor="consulta" className="form-label">Consulta</label>
-                    <textarea id="consulta" name="consulta" className="form-control"></textarea>
+                <div class="form-group">
+                    <label htmlFor="consulta" class="form-label">Consulta</label>
+                    <textarea id="consulta" name="consulta" class="form-control"></textarea>
                 </div>
-                <button type="submit" className="submit-button">Enviar</button>
+                <button type="submit" class="submit-button">Enviar</button>
             </form>
         </div>
     );

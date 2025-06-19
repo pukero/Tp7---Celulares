@@ -4,6 +4,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button  from "react-bootstrap/Button";
 import { celulares } from "../../data";
+import   './Home.css';
+
 const Home = () => {
     return(
       <>

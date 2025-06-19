@@ -1,6 +1,5 @@
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
-import css from  './index.css';
+
+import  './index.css';
 
 const QuienesSomos = () => {
   return (
@@ -17,7 +16,7 @@ const QuienesSomos = () => {
           alt="Oficina 2"
         />
         <img
-          src={'https://cityoffice.com.mx/wp-content/uploads/2024/03/CityOffice-Diseno-de-Oficinas-Modernas-FTD.webp'}
+          src={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMSVRGRASXx9pL1YjEHF844Y92ESaO3uwSpw&s'}
           alt="Oficina 3"
         />
       </div>
