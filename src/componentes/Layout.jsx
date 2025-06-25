@@ -2,16 +2,16 @@
 import { useState } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import './Layout.css';
-
+import Footer from './Footer/Footer';
 const Layout = () => {
   
 
   return (
     <>
       <header className="header">
-        <div className="logo">
+      <div className="logo">
           <Link to="/">Logo</Link>
-        </div>
+      </div>
         <nav className="nav">
           <ul className="nav-list">
             <li><Link to="/">Home</Link></li>
@@ -24,6 +24,7 @@ const Layout = () => {
       <main>
         <Outlet />
       </main>
+      <Footer/>
     </>
   );
 };
